@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     box-sizing: border-box;
     margin: 0;
@@ -119,4 +120,89 @@ footer a{
 .right-area{
   
     margin-right: 20%;
+=======
+body{
+	padding: 0;
+	margin: 0;
+}
+.img-icon{
+	width: 50px;
+	height: 50px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+section .flex-container{
+	display: flex;
+}
+.left-side-columns{
+	display: flex;
+
+}
+.left-side{margin-right: 35px}
+.left-side h1{
+	font-size: 60px;
+	margin-bottom: 0;
+}
+.left-side p{
+	color: #505050
+}
+.left-side-columns h2{
+	color: #202020;
+	font-size: 20px;
+	margin-bottom: 0
+}
+.right-side h1 span{
+ font-weight: lighter;
+}
+.right-side-cpation{
+	background-color: #4fc680;
+    display: flex;
+    color: #fff;
+    width: 75%;
+    padding: 10px 30px;
+}
+.right-side-cpation img{
+    width: 150px;
+    height: 150px;
+}
+ /*
+
+ */
+
+ .meet-the-team{
+ 	padding: 30px 0;
+	background-color: #c9e7de;
+	text-align: center;
+}
+ .meet-the-team .container{
+ 	width: 75%;
+ 	margin: 0 auto;
+ }
+ .meet-the-team h1{
+ 	font-size: 50px;
+ 	margin-bottom: 0;
+ 	color: #202020;
+ }
+ .meet-the-team h1 span{
+ font-weight: lighter;
+}
+ .meet-the-team p{
+ 	font-size: 20px;
+ }
+
+@media only screen and (max-width: 800px){
+	section .flex-container,
+	.left-side-columns{
+		flex-direction: column;
+	}
+	.left-side h1,
+	.meet-the-team h1{
+	font-size: 30px;
+	}
+	.right-side-cpation{
+		margin-bottom: 40px
+	}
+>>>>>>> 42f61944bd5ea46a4e84c60056cb0b87232b31c7
 }
