@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img, video {
+    width: 100%;
+    max-width: 100%;
+}
+
+.pics{
+    background: #333333;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0;
+    margin: 0;
+    
+}
+
+.pics img{
+width: 12.5%;
+
+}
+
+.green-box{
+    background: rgb(98, 198, 128);
+    padding: 5% 0;
+    color: white;
+    
+}
+
+.green-box-top{
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 5%;
+    margin: 1% auto;
+    line-height: 30px;
+}
+
+
+
+
+.social{
+   
+   display: flex;
+   justify-content: flex-end;
+   align-items: baseline;
+   
+}
+.stay-connect{
+    width: 50%;
+    margin-right: 30%;
+}
+.green-box-bottom{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 1% auto;
+    
+    
+}
+
+.form-box{
+    width: 50%;
+}
+.form-box label{
+    width: 100%;
+    
+}
+
+.form-box input{
+    width: 90%;
+    padding: 1.5%;
+    margin: 1% 0;
+}
+
+.form-box input[id="message"]{
+    padding: 10% 0%;
+}
+.form-box input[type="button"]{
+    width: 15%;
+    font-size: 26px;
+  
+}
+.maps-area img{
+    padding-bottom: 5%;
+  
+    border-bottom: 1px solid white;
+}
+
+.maps-area a{
+    color: black;
+    text-decoration: none;
+}
+
+.maps-area p{
+    margin: 2% 0;
+    line-height: 20px;
+}
+
+footer{
+    background: #333333;
+    padding: 10%;
+    color: darkgrey;
+    font-size: x-small;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a{
+    color: rgb(98, 198, 128);
+    text-decoration: none;
+}
+
+.right-area{
+  
+    margin-right: 20%;
+}
