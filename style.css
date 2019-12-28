@@ -1,0 +1,106 @@
+/*-----Burak Start----*/
+
+#wlove {
+  width: 100%;
+  height: 100%;
+  background-color: #f1f4f5;
+  padding: 3% 0;
+}
+
+/*-----Upper Part----*/
+
+#htex {
+  font-size: 3.75em;
+  font-weight: 100;
+  margin-bottom: 2%;
+}
+
+#htex span {
+  font-weight: bold;
+}
+
+.upper {
+  margin-bottom: 6%;
+}
+
+.upper p {
+  color: rgb(80, 80, 80);
+  font-size: 1.31em;
+  padding: 0 4%;
+}
+#csp {
+  margin-left: 31%;
+}
+
+/*-----Down Part----*/
+
+.down {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*-----Down Left----*/
+
+.text {
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  width: 200px;
+  margin-right: 80px;
+}
+
+.column h5 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.column p {
+  font-size: 1em;
+  color: rgb(80, 80, 80);
+  font-weight: 400;
+  line-height: 1.75em;
+}
+
+/*-----Down Right----*/
+
+.img {
+  position: absolute;
+  left: 40%;
+}
+
+img {
+  max-width: 150%;
+  min-width: 50%;
+}
+
+@media only screen and (min-width: 380px) and (max-width: 640px) {
+  .row {
+    flex-direction: column;
+    background-color: blue;
+  }
+  .column {
+    width: 100%;
+    background-color: red;
+  }
+  img {
+    width: 150%;
+  }
+  .img {
+    padding: 30px;
+
+    background-color: pink;
+  }
+
+  .down {
+    flex-direction: column;
+    margin-top: 300px;
+  }
+}
+
+/*-----Burak End----*/
