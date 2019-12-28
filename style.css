@@ -1,0 +1,115 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #393B42;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    width: 75%;
+    margin: 0 auto;
+}
+
+header {
+    color: white;
+    /* position: fixed; */
+    background-color: #393B42;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 50px;
+}
+
+nav {
+    width: 60%;
+}
+
+.nav-link {
+    line-height: 3em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    color: white;
+}
+
+#sec-1 {
+    background-color: #666;
+    padding: 150px;
+}
+
+#sec-2 {
+    background-color: #4FC67F;
+    padding: 75px;
+}
+
+section div {
+    margin: 0 auto;
+    text-align: center;
+}
+
+img.founders {
+    width: 70px;
+}
+
+#sec-2 img {
+    height: 60px;
+}
+
+#sec-2 p {
+    padding: 20px;
+    font-size: 0.8em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 6em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+.green {
+    color: #4FC67F;
+}
+
+.button {
+    background-color: #4FC67F;
+    width: 12em;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px auto;
+    text-decoration: none;
+}
+
+.button a:link,
+.button a:visited
+ {
+    color: white;
+    text-decoration: none;
+}
+.button:hover {
+    text-decoration: underline;
+}
